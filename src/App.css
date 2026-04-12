@@ -3,3 +3,8 @@
     height: 100vh;
     background-image: linear-gradient(90deg,#002552 1%, #7f3ef7)
 }
+
+
+.App-header {
+  background-color: #FFF;
+}

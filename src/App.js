@@ -4,7 +4,7 @@ import Logo from './components/logo'
 function App() {
   return (
     <div className="App">
-      <header ClassName="App-header">
+      <header className="App-header">
        <Logo></Logo>
       </header>
     </div>
