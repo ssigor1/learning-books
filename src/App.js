@@ -1,28 +1,15 @@
 import './App.css';
 import Logo from './components/logo'
-import perfil from './images/perfil.svg'
-import sacola from './images/sacola.svg'
+import OpcoesHeader from './components/OpcoesHeader'
+import IconsHeader from './components/IconsHeader'
 
-const textoOpcoes =['CATEGORIAS','FAVORITOS','MINHA ESTANTE',]
-const icones =[perfil, sacola]
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Logo></Logo>
-        <ul className='opcoes'>
-          { textoOpcoes.map((texto) => (
-            <li className='opcao'><p>{texto}</p></li>
-          )
-         )}
-        </ul>
-
-        <ul className='icones'>
-          {icones.map( (icone) => (
-            <li className='icone'><img src= {icone}></img></li>
-          ))}
-
-        </ul>
+        <OpcoesHeader></OpcoesHeader>
+        <IconsHeader></IconsHeader>
       </header>
     </div>
   );
